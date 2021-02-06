@@ -9,7 +9,7 @@
   <body>
     <main class="container">
       <h1 class="container__title">Adivina el número</h1>
-      <form action="" method="GET" class="container__form">
+      <form method="GET" class="container__form">
         <label for="number" class="container__form--label"
           >Introduce aquí tu número:</label
         >
@@ -20,9 +20,10 @@
           class="container__form--number"
         />
         <input type="submit" value="Prueba" class="container__form--button" />
+        <button class="container__button--resetbtn">reset</button>
       </form>
       <p class="container__clue">Pista: Escribe el número y dale a PRUEBA</p>
-      <p class="container__attempt">Número de intentos: 0</p>
+      <p class="container__attempt"></p>
     </main>
     <script src="./js/main.js"></script>
   </body>

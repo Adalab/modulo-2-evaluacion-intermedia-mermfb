@@ -39,6 +39,17 @@
   font-size: 1rem;
   text-transform: uppercase;
   color: white;
+  margin-bottom: 5px;
+}
+
+.container__button--resetbtn {
+  height: 30px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  background-color: orange;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
   margin-bottom: 30px;
 }
 
