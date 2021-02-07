@@ -29,6 +29,16 @@ function giveAClue(message) {
   clueElement.innerHTML = "Pista: " + message;
 }
 
+//BOTÓN DE RESET
+
+// function handleReset() {
+//   randomNumber;
+//   console.log(`El número aleatorio es ${getRandomNumber(100)}`);
+//   introduceNumber.value = "";
+//   giveAClue("Escribe el número y dale a PRUEBA");
+//   ereaseCounter();
+// }
+
 //LEER VALOR INPUT Y COMPARAR
 
 function handleGame() {
@@ -63,15 +73,6 @@ function increaseCounter() {
 function ereaseCounter() {
   counter = 0;
   attemptElement.innerHTML = `Número de intentos:${counter}`;
-}
-
-//BOTÓN DE RESET
-function handleReset() {
-  getRandomNumber(100);
-  console.log(`El número aleatorio es ${getRandomNumber(100)}`);
-  introduceNumber.value = "";
-  giveAClue("Escribe el número y dale a PRUEBA");
-  ereaseCounter();
 }
 
 //ESCUCHAR EVENTO
